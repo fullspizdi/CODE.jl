@@ -1,0 +1,18 @@
+name = "CODE"
+version = "0.1.0"
+authors = ["Your Name <your.email@example.com>"]
+description = "A Julia toolbox for code manipulation, introspection, and generation."
+license = "MIT"
+keywords = ["metaprogramming", "code generation", "introspection"]
+
+[deps]
+Julia = "1.5"
+
+[compat]
+Julia = "1.5"
+
+[extras]
+Test = "8dfed614-e22c-5b79-9617-8b2c9c6e97d5"
+
+[targets]
+test = ["Test"]
